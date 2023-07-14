@@ -1,0 +1,41 @@
+body{
+    color: #ededed;
+        background-color: #081b29;
+}
+
+
+
+.Body_lets_begin{
+
+   
+    display: grid;
+align-items: center;
+justify-content: center;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 300px 460px 1fr;
+min-height: auto;
+
+
+}
+.education_content{
+   display: flex;
+   
+   flex-wrap: wrap;
+}
+.education_column{
+    flex: 1 1 40rem;
+    padding-left: 15px; 
+    border-left:.01rem solid #00abf0;
+    border-bottom:.01rem solid #00abf0;
+margin-left: 10px;
+
+}
+
+.Year{color: #00abf0;
+}
+h3{
+    font-size: 1.3rem;
+    margin:0 0 1.5rem;
+}
+
+
